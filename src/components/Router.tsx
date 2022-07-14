@@ -6,7 +6,7 @@ import Chart from '../pages/Chart';
 
 function Router() {
 	return (
-		<BrowserRouter>
+		<BrowserRouter basename="/practice1">
 			<Routes>
 				<Route path="/" element={<CoinList />} />
 				<Route path="/:coinId" element={<Coin />}>
